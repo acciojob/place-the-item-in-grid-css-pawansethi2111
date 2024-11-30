@@ -4,6 +4,23 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.holder {
+    display: grid; /* Enable grid layout */
+    grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    width: 200px; /* Total width of the grid */
+    height: 200px; /* Total height of the grid */
+}
+
+.item {
+    display: flex; /* Optional: For centering content inside items */
+    align-items: center; /* Optional: For vertical alignment */
+    justify-content: center; /* Optional: For horizontal alignment */
+    background-color: lightblue; /* Optional: Styling for visibility */
+    border: 1px solid #ddd; /* Optional: Styling for visibility */
+}
+	</style>
 </head>
 
 <body>
